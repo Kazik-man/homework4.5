@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 95%;
+    margin: 0 0 0 10px;
+}
+header {
+    width: 100%;
+    background: #a52a2a;
+    color: #fff;
+    margin: 0 0 0 10px;
+}
+header h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+.image img {
+    width: 100%;
+}
+.text p {
+    font-size: 18px;
+}
+.img_item {
+    display: flex;
+    justify-content: center;
+}
+.img_item > div {
+    border: 3px dashed;
+    margin: 3px;
+}
+.img_item img {
+    width: 90px;
+}
+.blue {
+    color: blue;
+}
+footer {
+    background: #000;
+    margin: 40px 0px 40px 10px;
+}
+.foo {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
